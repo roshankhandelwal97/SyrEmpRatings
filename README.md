@@ -45,7 +45,7 @@ Contributions are welcome! Please read the contribution guidelines in `CONTRIBUT
 This project is licensed under the MIT License - see the `LICENSE.md` file for details.
 
 ## Contact
-- **Roshan Khandelwal** - [GitHub](https://github.com/mandarangchekar) | [LinkedIn](https://www.linkedin.com/in/mandar-angchekar/) 
+- **Mandar Angchekar** - [GitHub](https://github.com/mandarangchekar) | [LinkedIn](https://www.linkedin.com/in/mandar-angchekar/) 
 - **Roshan Khandelwal** - [GitHub](https://github.com/roshankhandelwal97) | [LinkedIn](https://www.linkedin.com/in/rokhande/) 
 - **Project Link** - [SyrEmpRatings](https://github.com/roshankhandelwal97/SyrEmpRatings)
 
