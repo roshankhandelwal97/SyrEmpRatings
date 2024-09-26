@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Python virtual environments
+venv/
+env/
+
+ratings/model.pkl
+
+# Python byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook files
+.ipynb_checkpoints
+
+# Operating system files
+.DS_Store    # macOS specific files
+Thumbs.db    # Windows specific files
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Large files (you can specify actual large files you know should not be committed)
+*.tar.gz
+*.zip
+largefile.example
+
+# Distribution / build
+dist/
+build/
+*.egg-info/

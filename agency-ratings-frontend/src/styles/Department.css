@@ -1,0 +1,64 @@
+.Department {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+
+}
+
+.Department h1 {
+    color: #f2a940; /* Yellow color matching the theme */
+    font-size: 2.5em; /* Adjust size as needed */
+    padding-left: 170px;
+}
+
+.sidebar {
+    width: 500px;
+    background: #f4f4f4;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+    padding: 50px;
+}
+
+.sidebar.show {
+    transform: translateX(0);
+}
+
+.department-main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.department-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.assignee-card {
+    width: 800px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    border-radius: 15px; /* Rounded corners */
+    border: 2px solid transparent; /* Default transparent border */
+}
+
+.assignee-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1); /* Slightly larger */
+    border: 2px solid #f2a940; /* Themed border to indicate selection */
+}
+
+.card-title {
+    font-size: 2px; /* Reduced from larger size to 16px */
+    color: #0a7ca4; /* Custom blue color */
+}
+.card-text {
+    font-size: 14px; /* Appropriate text size for descriptions */
+    color: #333; /* Dark grey text for better readability */
+}
+
+.contact-info {
+    font-size: 14px; /* Small font size for contact info */
+    color: #333; /* Darker text color for better contrast */
+}

@@ -1,0 +1,34 @@
+/* styles.css */
+.navbar {
+    background-color: #f2a940; /* Light grey background */
+    justify-content: space-between;
+    display: flex;
+    padding-right: 50px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Make the brand name bolder */
+    color: #efefef; /* Dark grey text for visibility */
+    padding: 7px;
+    padding-left: 50px;
+  }
+  
+  .nav-link {
+    color: #555 !important; /* Darker text links */
+  }
+  
+  .navbar.bg-light {
+    background-color: #f2a940 !important; /* Ensuring override with !important */
+}
+
+.navbar-collapse {
+  justify-content: flex-end; /* Aligns nav links to the right */
+}
+
+/* styles.css */
+body {
+  font-family: 'Poppins', sans-serif; /* Set Poppins as the default font for the body */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}

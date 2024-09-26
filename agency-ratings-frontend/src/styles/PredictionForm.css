@@ -1,0 +1,70 @@
+.prediction-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 20px;
+}
+
+.form-container, .content-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-container {
+    border-right: 2px solid #ddd;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f2a940;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #e89c30;
+}
+
+input, select {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px; /* Increased margin for larger gaps */
+    border: 2px solid #f2a940; /* Themed border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font size for readability */
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1); /* Optional: Adds subtle shadow for depth */
+}
+
+
+.content-container h2 {
+    color: #0a7ca4;
+}
+
+.content-container p {
+    color: #333;
+    line-height: 1.5;
+}
+
+.prediction-result {
+    font-size: 2.5em; /* Increased size for visibility */
+    color: #0a7ca4; /* Theme blue color */
+    font-weight: bold; /* Bold text for emphasis */
+    text-align: center; /* Center the prediction value */
+    display: block; /* Block display to take full width for centering */
+}
+
+.prediction-label{
+    text-align: center;
+    font-size: 2em;
+}
+
+

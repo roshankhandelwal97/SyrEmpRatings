@@ -1,0 +1,24 @@
+/* CategoryCard.css */
+.clickable-card {
+    cursor: pointer;
+    width: 100%; /* Full width */
+    transition: box-shadow 0.3s ease;
+    border-color: #ccc; /* Light grey border */
+  }
+  
+  .clickable-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Subtle shadow on hover */
+  }
+  
+  .card-body {
+    color: #333; /* Dark grey text */
+  }
+  
+  .card-title {
+    font-size: 24px; /* Larger font size for titles */
+  }
+  
+  .card-text {
+    font-size: 16px; /* Appropriate text size for descriptions */
+  }
+  

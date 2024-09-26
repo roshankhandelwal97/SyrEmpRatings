@@ -1,0 +1,52 @@
+.home {
+    text-align: center;
+    padding: 20px;
+}
+
+.home h1 {
+    color: #f2a940; /* Yellow color matching the theme */
+    font-size: 2.5em; /* Adjust size as needed */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.agency-card {
+    width: 30%; /* Adjust based on preference and spacing */
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    border-radius: 20px;
+    transition: transform 0.2s; /* Animation for hover */
+}
+
+.agency-card:hover {
+    transform: scale(1.05); /* Slightly enlarge cards on hover */
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating-text {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) { /* Responsive design adjustments */
+    .agency-card {
+        width: 48%; /* Adapt to smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .agency-card {
+        width: 100%; /* Stack cards on very small screens */
+    }
+}
