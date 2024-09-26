@@ -21,9 +21,9 @@ The machine learning model, built on Python, uses Random Forest algorithms to pr
 - `agency-ratings-frontend/`: Contains all React frontend code.
 - `backend/`: Django application with REST API.
 - `ratings/`: Django app handling rating logic.
-- `Data Analysis and Model.ipynb`: Jupyter notebook for analyzing data.
+- `Data Analysis and Model.ipynb`: Jupyter notebook used for anaylsing that can be used directly.
 - `manage.py`: Django script for project management tasks.
-- `Data Analysis and Model (1).py`: Model and Prediction Code
+- `Data Analysis and Model (1).py`: Model and Prediction Code.
 
 ## Installation
 1. Clone the repository
