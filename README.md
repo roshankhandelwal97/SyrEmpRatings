@@ -1,12 +1,15 @@
 # SyrEmpRatings
 
 ## Overview
-SyrEmpRatings is a dynamic web application designed to enable users to rate and review various government departments and entities based on their performance. This project aims to provide transparency and actionable insights into public service effectiveness.
+The project involves a React frontend and a Django backend, incorporating a machine learning prediction model to estimate service resolution times and rate government department performances. The frontend includes pages for home navigation, department-specific ratings, and a form for predicting resolution times, allowing users to interact seamlessly. The backend manages data interactions and model integration, facilitating efficient data processing and response handling.
+
+Roshan Khandelwal was responsible for the backend and frontend integration with the machine learning model developed by Mandar Angchekar. This synergy between frontend, backend, and machine learning components ensures a robust and scalable application, capable of handling complex data interactions and delivering precise model predictions.
+
+The machine learning model, built on Python, uses Random Forest algorithms to predict service request completion times based on historical data. This prediction capability is integrated into the React application, allowing users to obtain instant predictions by entering specific details in the provided form. Additionally, the application features a dynamic rating system where departments are rated based on performance metrics, enhancing transparency and accountability.
 
 ## Features
-- **User Ratings**: Users can submit ratings for different agencies.
-- **Data Analysis**: In-depth analysis of collected data to generate reports and insights.
-- **Responsive Frontend**: A React-based frontend that ensures a seamless user experience across devices.
+- **Effectiveness of Predictions**: The integration of machine learning into municipal service operations has significantly improved prediction accuracy, providing residents with reliable estimates of service completion times.
+- **User Engagement**: By allowing residents to access detailed ratings and predicted times, the platform fosters greater community engagement and trust in local government operations.
 
 ## Technologies
 - **Frontend**: React.js, JavaScript, HTML5, CSS3
